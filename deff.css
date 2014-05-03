@@ -11,8 +11,10 @@ body{
     margin:0;
     padding:0;
 
-    background: url(img/fondo.jpg) no-repeat;
+    background: url(img/fondo.jpg) no-repeat fixed ;
+
     background-size: 100%;
+
 }
 #reloj{
 
@@ -99,10 +101,11 @@ font-size: 17px;
 
    
 
-    width: 400px;
+    width: 1000px;
 
     border:1px solid #444;
     margin: auto;
+    display: inline-block;
 
 
 }
@@ -116,6 +119,7 @@ font-size: 17px;
     padding:0;
 
     margin: 0;
+    width: 50%;
 
 }
 
@@ -198,13 +202,16 @@ clear:both;
 
 }*/
 
+
  
 
 .post_results {
 
-    margin: 5px;
+    margin: 0 0 20px;
 
-    width: 400px;
+    padding: 0;
+
+    width: 50%;
 
     border:1px solid #444;
 
@@ -221,6 +228,7 @@ clear:both;
     padding:0;
 
     margin: 0;
+    width: 100%;
 
 }
 
@@ -271,8 +279,29 @@ clear:both;
 }
 #noticias{
 
-
-
     width: 1000px;
     margin: auto;
 }
+
+#vid{
+
+
+float: right;
+margin-left: 0px;
+display: inline;
+
+}
+
+#vid p{
+margin: 0;
+padding: 0;
+background: url(img/juan_santos.jpg) no-repeat;
+background-size: 100%;
+
+outline: none;
+text-indent: -9999px;
+
+height: 272px;
+width: 400px
+}
+
